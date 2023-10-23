@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo">portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon" ></i>
+
+        <nav class="navbar">
+            <a href="" class="active">home</a>
+            <a href="">about</a>
+            <a href="">Skills</a>
+            <a href="">portfolio</a>
+            <a href="">contact us</a>
+
+            <div class="burger" onclick="toggleNav()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+              </div>
+
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Devprakash mishra</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>
+                I'm Devprakash Mishra, a passionate web developer creating captivating
+          digital experiences. With expertise in front-end technologies 
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100019381534397"><i class='bx bxl-facebook'></i></a>
+                <a href="https://github.com/Devmishra8094"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/devprakash_mishra16/"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/in/dev-prakash-mishra-3b3b3a227/"><i class='bx bxl-linkedin-square' ></i></a>
+              
+
+            </div>
+            <a href="dev_resume3.pdf" class="btn" download="dev_res">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img id="dev" src="dev2.jpg" alt="">
+
+        </div>
+        <!-- https://drive.google.com/file/d/1vjGVw7rDBATx3qyMaTsjJwQ8dzRLd5KT/view?usp=share_link -->
+
+    </section>
+
+    <!-- about section design -->
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img id="dev2" src="dev.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>          Passionate about web development, I thrive on turning ideas into
+                functional websites and applications using HTML, CSS, JavaScript,
+                and frameworks. My focus is on creating exceptional user
+                experiences, pushing the boundaries of my skills, and contributing
+                to the ever-changing web landscape. I am a dedicated <span style="color: aqua; font-weight: 600;">UI </span> designer  My mission is to bridge the gap between aesthetics and functionality, delivering designs that captivate and engage users while optimizing usability.</p>
+            <a href="" class="btn">Read More</a>
+
+        </div>
+         
+          
+    </section>
+
+    <!-- service section -->
+
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code"></i>
+                <h3>Web Developement</h3>
+                <p> As a lifelong learner in web development, I stay updated with the
+                    latest technologies and trends. Collaboration is essential, as I
+                    value diverse perspectives and believe in delivering solutions that
+                    resonate with users.</p>
+                <a href="" class="btn">Read more
+
+                </a>
+            </div> 
+
+            <div class="services-box">
+                <i class="bx bx-paint"></i>
+                <h3>UI Design</h3>
+                <p>My design philosophy revolves around simplicity, empathy, and innovation. I believe in the power of user-centered design, and my approach focuses on understanding the user's needs and behaviors to craft interfaces that are not only visually stunning but also highly efficient.</p>
+                <a href="" class="btn">Read more
+                    
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+<section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img id="portfolioimage" src="1.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>its a custom netflix clone with responsiveness</p>
+                <a href="https://devmishra8094.github.io/netflix_clone/"><i class='bx bx-link-external'></i></a>
+
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img   id="portfolioimage" src="2.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>its a travle website front page with some CSS animation</p>
+                <a href="https://devmishra8094.github.io/travle_website_homepage/"><i class='bx bx-link-external'></i></a>
+                
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img id="portfolioimage" src="3.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>its a front page  grocery website </p>
+                <a href="https://devmishra8094.github.io/grocery_home_page/"><i class='bx bx-link-external'></i></a>
+                
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img id="portfolioimage" src="4.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p> its a parallel website with diffrent pages </p>
+                <a href="https://devmishra8094.github.io/parallel_pages/"><i class='bx bx-link-external'></i></a>
+                
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img id="portfolioimage" src="5.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>its a linkes page signup and login page custom clone.</p>
+                <a href="https://devmishra8094.github.io/linkedin_signup/"><i class='bx bx-link-external'></i></a>
+                
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img id="portfolioimage" src="6.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>its a pw website front page </p>
+                <a href="https://devmishra8094.github.io/PW_clone/"><i class='bx bx-link-external'></i></a>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- contact-section -->
+
+<section class="contact" id="contact ">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="Submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+
+    
+</body>
+</html>
